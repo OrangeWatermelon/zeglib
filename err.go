@@ -1,6 +1,6 @@
 package zeglib
 
-func die(err interface{}) {
+func Die(err interface{}) {
 	if err == nil {
 		return
 	}
